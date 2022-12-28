@@ -91,7 +91,7 @@ img {
     transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
     box-shadow: 0px, 4px, 4px rgba(0, 0, 0, 0.025);
 }
-.line-lict.current::after {
+.line-lict, .current::after {
     color: #404BBF;
 }
 
@@ -140,6 +140,8 @@ line-height: 1.2;
 display: flex;
 text-decoration: none;
 
+
+
  }
 .color {
     color: #2E2F42;
@@ -151,7 +153,7 @@ text-decoration: none;
 
 }
 
-.site-nav .link.current {
+.site-nav .link, .current {
    color: #404BBF
 }
 .site-nav, .li {
