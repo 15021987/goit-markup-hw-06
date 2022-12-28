@@ -297,7 +297,7 @@ color: #ffffff;
 
 .button:focus {
 color: #ffffff;
-    background: #4D5AE5;
+    background-color: #4D5AE5;
     
 }
 
@@ -316,7 +316,7 @@ line-height: 1.5;
     border-radius: 4px;
     text-align: center;
     border: 1px solid #E7E9FC;
-    transition-property: color, background-color;
+    transition-property: color, background-color, border-radius;
     transition-property: #4D5AE5; 
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -851,7 +851,7 @@ background-color: #E7E9FC;
     border: 1px solid rgba(0, 0, 0, 0.1);
     border-radius: 50%;
 
-    transition-property: fill, background-color;
+    transition-property: fill, background-color border;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
  
