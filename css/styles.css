@@ -72,14 +72,6 @@ img {
     align-items: center;
     color: #2E2F42;
     justify-content: center;
-    transition-property: #4D5AE5; 
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.line-lict:hover,
-.line-lict:focus {
-    color: #4D5AE5;
 }
 
 .current::after {
@@ -138,7 +130,7 @@ color: var(--accent-color);
  display: flex;
  text-decoration: none;
 
- transition-property: color; 
+ transition-property: #4D5AE5; 
  transition-duration: 250ms;
  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
@@ -635,13 +627,18 @@ transition-property: cubic-bezier(0.4, 0, 0.2, 1);
 .fotolist:hover,
 .fotolist:focus {
     display: block;
-    border: 0.5px solid #F4F4FD;
-    box-shadow: 0px 1px 6px rgb(46, 47, 66,), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
     
 }
 .fotolist {
     position: relative;
-    transition-property:border, box-shadow cubic-bezier(0.4, 0, 0.2, 1);
+    border: 0.5px solid #F4F4FD;
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
+    transition-property: box-shadow ;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
 }
 .overlay-text {
     position: absolute;
@@ -720,6 +717,7 @@ rgba(77, 90, 229);
 
   .customers-list-icon {
     fill: currentColor;
+
 }
 
   .customers-text {
@@ -739,10 +737,10 @@ color: #2E2F42;
 color: #8E8F99;
     display: flex;
     align-items: center;
-    justify-content: center, color;
+    justify-content: center;
     border-radius: 4px;
 
-    transition-property: border;
+    transition-property: border, color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     
@@ -873,7 +871,56 @@ background-color: #E7E9FC;
     
     fill: #E7E9FC;
 
-    
+}
+
+/*************Modal Window**********/
+.textarea {
+    resize: none;
+}
+
+
+.window {
+    position: absolute;
+width: 360px;
+height: 24px;
+left: 540px;
+top: 152px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+
+text-align: center;
+letter-spacing: 0.02em;
+
+color: #2E2F42;
+}
+
+.form {
+    Width: 360px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 24px;
+    padding-right: 24px;
+    display: flex;
+ flex-direction: column;
+ align-items: flex-start;
+ padding: 0;
+ gap: 8px;
 
 }
 
+.form-label {
+    width: 360px;
+height: 58px;
+margin: 0;
+padding: 0;
+margin-bottom: 8px;
+}
+
+.form-input {
+    width: 360px;
+    height: 40px; 
+}
