@@ -338,7 +338,7 @@
     </div>
     </div>
     </footer>
-
+<!----------------- Model Window ------------------>
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
        <button type="button" class="modal-close-btn" data-modal-close>
@@ -348,36 +348,39 @@
        </button>
       </div>
      </div>
-     <div>
-      <!-- --------Window-------- -->
+
+      <!-- --------Model Window text-------- -->
+      <div class="window">
+        
       <form class="js-speaker-form">
-        <!-- <h5 class="window">Leave your contacts and we will call you back</h5> -->
 
        <div class="form">
-        <ul>
-          <li>
-            <label for="name" class="form-label">Name</label>
-            <input class="form-input" type="text" name="name" id="name" placeholder="Імя" />
-          </li>
-          <li>
-            <label for="tel" class="form-label">Phone</label>
-            <input class="form-input" type="tel" nama="tel" id="tel" placeholder="+380 "/>
-          </li>
-          <li>
-            <label for="email" class="form-label">Email</label>
-            <input class="form-input" type="email" nama="tel" id="email"/>
-          </li>
-        </ul>
-
-        <button type="submit">Send</button>
-        
-        <label for="comment">Text input</label>
-        <textarea name="comment" id="comment" rows="10" class="textarea"></textarea>
+        <h5 class="form-title">Leave your contacts and we will call you back</h5>
+         <ul>
+           <li>
+              <label for="name" class="form-label">Name</label>
+              <input class="form-input" type="text" name="name" id="name" placeholder="Імя" />
+           </li>
+           <li>
+              <label for="tel" class="form-label">Phone</label>
+              <input class="form-input" type="tel" nama="tel" id="tel" placeholder="+380 "/>
+           </li>
+           <li>
+             <label for="email" class="form-label">Email</label>
+             <input class="form-input" type="email" nama="tel" id="email"/>
+           </li>
+           <li>
+            <label for="comment" class="comment">Comment</label>
+            <textarea name="comment" id="comment" rows="10" class="textarea comment-text" placeholder="Text input "></textarea>
+           </li>
+           <li>
+            <input  type="checkbox" name="policy" id="policy">
+            <label for="policy" class="checkbox">I accept the terms and conditions of the <samp class="policy">Privacy Policy</samp></label>
+           </li>
+          </ul>
+       
+           <button type="submit" class="button-window button-textres">Send</button>
        </div>
-
-        <input type="checkbox" name="policy" id="policy">
-        <label for="policy">I accept the terms and conditions of the Privacy Policy</label>
-
       </form>
      </div>
 
