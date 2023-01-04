@@ -335,22 +335,90 @@
           </li>
         </ul>
       </div>
-    </div>
+      <div class="Subscribebox">
+        <h3 class="Subscribe">Subscribe</h3>
+        <ul class="Subscribe-tetle">
+          <li><input class="Subscribe-mail" type="text" name="name" id="name" placeholder="E-mail"/></li>
+          <li>
+            <button type="submit" class="Subscribe-buttom">Subscribe
+              <svg class="litak">
+                <use href="./images/symbol-defs.svg#icon-litak"></use>
+              </svg>
+            </button>
+          </li>
+        </ul>
+       </div>
+    </div>  
     </div>
     </footer>
 <!----------------- Model Window ------------------>
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
-       <button type="button" class="modal-close-btn" data-modal-close>
-       <svg  class="modal-close-btn-icon">
-         <use href="./images/symbol-defs.svg#icon-close"></use>
+       <button class="modal-close-btn-icon" type="button" data-modal-close>
+       <svg class="icon-close" width="24" heigh="24">
+         <use href="./images/symbol-defs.svg#icon-close-black-18dp-2-1-1"></use>
        </svg>
        </button>
-      </div>
-     </div>
+        
+       <h5 class="form-title">Leave your contacts and we will call you back</h5>
+
+       <form class="js-speaker-form">
+         <div class="form" autocomplete="off">
+           <ul>
+             <li class="frame">
+                <label for="name" class="form-label">Name</label>
+
+
+                <input class="form-input" type="text" name="name" id="name" placeholder=""/>
+
+                <svg class="men">
+                  <use href="./images/symbol-defs.svg#icon-men"></use>
+                </svg> 
+              
+             </li>
+             <li class="frame">
+                <label for="tel" class="form-label">Phone</label>
+
+                <input class="form-input" type="tel" nama="tel" id="tel" placeholder=""/>
+
+                <svg class="phone">
+                  <use href="./images/symbol-defs.svg#icon-phone"></use>
+                </svg>
+             </li>
+             <li class="frame">
+               <label for="email" class="form-label">Email</label>
+
+               <input class="form-input" type="email" nama="tel" id="email"/>
+
+               <svg class="envelope">
+                <use href="./images/symbol-defs.svg#icon-envelope"></use>
+              </svg>
+
+             </li>
+             <li>
+              <label for="comment" class="comment">Comment</label>
+              <textarea name="comment" id="comment" rows="10" class="textarea comment-text" placeholder="Text input "></textarea>
+             </li>
+             <li>
+              <label for="" class="checkbox">
+                <input class="chek-imput" type="checkbox">
+                <span class="chekbox-icon">
+                  <svg>
+                    <use href="./images/symbol-defs.svg#icon-Checkbox-1"></use>
+                  </svg>
+                </span>
+               <p class="checkbox-text"> I accept the terms and conditions of the <span class="policy">Privacy Policy</span></p>
+              </label>
+              <!-- <label for="policy" class="checkbox">I accept the terms and conditions of the <samp class="policy">Privacy Policy</samp></label> -->
+             </li>
+            </ul>
+         
+             <button type="submit" class="button-window button-textres">Send</button>
+         </div>
+        </form>
 
       <!-- --------Model Window text-------- -->
-      <div class="window">
+      <!-- <div class="window">
         
       <form class="js-speaker-form">
 
@@ -359,7 +427,7 @@
          <ul>
            <li>
               <label for="name" class="form-label">Name</label>
-              <input class="form-input" type="text" name="name" id="name" placeholder="Імя" />
+              <input class="form-input" type="text" name="name" id="name" placeholder=""/>
            </li>
            <li>
               <label for="tel" class="form-label">Phone</label>
@@ -382,10 +450,10 @@
            <button type="submit" class="button-window button-textres">Send</button>
        </div>
       </form>
-     </div>
+     </div> -->
 
     -   <script src="./js/model.js"></script> 
-    -   <script>
+    <!-- -   <script>
       (()=> {
         document
         .querySelector('.js-speaker-form')
@@ -397,7 +465,7 @@
           );
         });
       })();
-    </script>   
+    </script>    -->
     </body>
     </html>
 
