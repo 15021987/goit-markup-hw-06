@@ -1328,10 +1328,11 @@ color: #FFFFFF;
 
 .checkbox:checked + .chekbox-icon::after {
 
-    background-image: url(/images/Vector-2-1.svg);
+
     background-size: contain;
     background-repeat: no-repeat;
     background-origin: border-box; 
-    background-color: #404BBF;   
+    background-color: #404BBF;  
+    background-image: url(/images/Vector-2-1.svg); 
 
 }
