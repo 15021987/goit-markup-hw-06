@@ -944,15 +944,14 @@ background: rgba(46, 47, 66, 0.4);
     transition-property:background-color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-
+    color: #000000;
 
 }
 
 .modal-close-btn-icon:hover,
 .modal-close-btn-icon:focus  {
-   
      background-color: #2E3CD7;
- 
+ color: #E7E9FC;
 }
 
 
@@ -967,11 +966,10 @@ background: rgba(46, 47, 66, 0.4);
 
 
 }
-
-.icon-close:hover {
+ .icon-close:hover {
    fill: #E7E9FC;
 
-}
+} 
 
 /*************Modal Window text**********/
 
