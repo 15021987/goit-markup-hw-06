@@ -1328,7 +1328,7 @@ color: #FFFFFF;
 
 .checkbox:checked + .chekbox-icon::after {
 
-    background-image: url(/images/Vector-2-1.svg);
+    background-image: url(../images/Vector-2-1.svg);
     background-size: contain;
     background-repeat: no-repeat;
     background-origin: border-box; 
