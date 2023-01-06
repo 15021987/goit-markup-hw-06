@@ -365,48 +365,75 @@
        <form >
          <div class="form">
            <ul>
-             <li class="frame">
-                <label for="name" class="form-label">Name</label>
-
-
-                <input class="form-input" type="text" name="name" id="name" placeholder=" "/>
-
-                <svg class="men">
-                  <use href="./images/symbol-defs.svg#icon-men"></use>
-                </svg> 
+             <li>
+              <label class=".modal-form">
+                <span class="modal-label">Name</span>
+                <span class="frame">
+              
+                  <input class="form-input" type="tel" name="tel" id="tel" placeholder=""/>
+  
+                  <svg class="men">
+                    <use href="./images/symbol-defs.svg#icon-men"></use>
+                  </svg>
+                 </span>
+              </label>
               
              </li>
-             <li class="frame">
-                <label for="tel" class="form-label">Phone</label>
+             <li>
+                <label class=".modal-form">
+                  <span class="modal-label">Phone</span>
+                  <span class="frame">
+                
+                    <input class="form-input" type="tel" name="tel" id="tel" placeholder=""/>
+    
+                    <svg class="phone">
+                      <use href="./images/symbol-defs.svg#icon-phone"></use>
+                    </svg>
+                   </span>
+                </label>
 
-                <input class="form-input" type="tel" name="tel" id="tel" placeholder=""/>
+              </li>
 
-                <svg class="phone">
-                  <use href="./images/symbol-defs.svg#icon-phone"></use>
-                </svg>
-             </li>
-             <li class="frame">
-               <label for="email" class="form-label">Email</label>
 
-               <input class="form-input" type="email" name="tel" id="email"/>
+             <li>
+              <label class=".modal-form">
+                <span class="modal-label">Email</span>
+                <span class="frame">
+              
+                  <input class="form-input" type="tel" name="tel" id="tel" placeholder=""/>
+  
+                  <svg class="envelope">
+                    <use href="./images/symbol-defs.svg#icon-envelope"></use>
+                  </svg>
+                 </span>
+              </label>
 
-               <svg class="envelope">
-                <use href="./images/symbol-defs.svg#icon-envelope"></use>
-              </svg>
 
              </li>
              <li class="label">
               <label for="comment" class="comment">Comment</label>
               <textarea name="comment" id="comment" rows="10" class="textarea comment-text" placeholder="Text input "></textarea>
              </li>
+
+             <input class="input-checkbox visually-hidden"
+             type="checkbox" name="privacy" id="privacy" required />
+             <label class="checkbox-label" for="privacy">
+             <span class="checkbox-label-title">
+              <svg class="checkbox-icon" width="10" height="8">
+               <use href="./images/symbol-defs.svg#icon-Vector-2-1"></use>
+              </svg>
+             </span>
+              I accept the terms and conditions of the&nbsp;
+              <a class="privacy-policy" href="#">Privacy Policy</a> 
+             </label> 
              
-             <li class="label">
+             <!-- <li class="label">
               <label>
                 <input class="checkbox chek-imput" type="checkbox" name="topic" value="html">
                  <span class="chekbox-icon"></span> 
                <span class="checkbox-text"> I accept the terms and conditions of the <span class="policy">Privacy Policy</span>
                </span>
-              </label>
+              </label> -->
               
             </ul>
          
