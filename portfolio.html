@@ -226,18 +226,37 @@
                 </li>
               </ul>
             </div>
-            <div class="Subscribebox">
-              <h3 class="Subscribe">Subscribe</h3>
-              <ul class="Subscribe-tetle">
-                <li><input class="Subscribe-mail" type="text" name="name" id="name" placeholder="E-mail"/></li>
-                <li>
-                  <button type="submit" class="Subscribe-buttom">Subscribe
-                    <svg class="litak">
-                      <use href="./images/symbol-defs.svg#icon-litak"></use>
-                    </svg>
-                  </button>
-                </li>
-              </ul>
+            <!-- <div class="Subscribebox">
+              <h3 class="Subscribe">Subscribe</h3> -->
+              
+              <form class="Subscribebox">
+                <label class="Subscribe" for="user-email">Subscribe</label>
+                <div class="footer-subscribe">
+                <input
+                 type="email"
+                 class="Subscribe-mail"
+                 name="user-email"
+                 placeholder="E-mail"
+                 id="user-email"
+                 required 
+                 />
+                <button type="submit" class="Subscribe-buttom">
+                  <span class="Subscribe-buttom-text">Subscribe</span>
+                  <svg class="litak">
+                    <use href="./images/symbol-defs.svg#icon-litak"></use>
+                  </svg>
+                </button>
+                </div>
+              </form>
+
+              <!-- <label class="Subscribe-tetle">
+                <input class="Subscribe-mail" type="text" name="name" id="name" placeholder="E-mail"/>
+                <button type="submit" class="Subscribe-buttom">Subscribe
+                  <svg class="litak">
+                    <use href="./images/symbol-defs.svg#icon-litak"></use>
+                  </svg>
+                </button>
+               </label> -->
              </div>
           </div>
          </div>

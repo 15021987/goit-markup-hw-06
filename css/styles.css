@@ -569,6 +569,8 @@ padding-top: 12px;
 .p {
     width: 264px;
     margin-top: 16px;
+
+    font-family: 'Roboto';
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
@@ -808,10 +810,10 @@ color: #8E8F99;
 /****************Subscribe****************/
 .Subscribebox {
 
-width: 453px;
-height: 80px;
-
- padding-left: 80px;
+ display: flex;
+ flex-direction: column;
+ width: 456px;
+ margin-left: 80px;
 }
 
 
@@ -820,17 +822,18 @@ height: 80px;
     font-weight: 500;
 font-size: 16px;
 line-height: 24px;
-
-padding-bottom: 16px;
+margin-bottom: 16px;
 
 letter-spacing: 0.02em;
 
 color: #FFFFFF;
 }
-.Subscribe-tetle {
+/* .Subscribe-tetle {
     display: flex;
-}
-
+} */
+.footer-subscribe {
+    display: flex;
+  }
 
 .Subscribe-mail {
     width: 264px;
@@ -857,6 +860,9 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
 .Subscribe-buttom {
     display: flex;
+/* width: 165px; */
+height: 40px;
+
 flex-direction: row;
 justify-content: center;
 align-items: center;
@@ -872,6 +878,15 @@ transition-duration: 250ms;
 transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
 }
+.Subscribe-buttom-text {
+    margin-right: 16px;
+    color: var(--White);
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+}
+
+
 .Subscribe-buttom:hover,
 .Subscribe-buttom:focus {
     background-color: #404BBF;
@@ -963,7 +978,7 @@ background: rgba(46, 47, 66, 0.4);
     display: inline-block;
     width: 8px;
     height: 8px;
-    fill-color: #000000;
+    color: #000000;
     transition-property: fill;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -972,7 +987,7 @@ background: rgba(46, 47, 66, 0.4);
 }
  .icon-close:hover {
 
-   fill-color: #E7E9FC;
+   color: #E7E9FC;
 
 } 
 
