@@ -856,11 +856,24 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     border: 1px solid rgba(203, 190, 190, 0.3);
     border-radius: 5px;
 }
+.Subscribe-mail-text {
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 24px;
+
+display: flex;
+align-items: center;
+letter-spacing: 0.04em;
+
+color: rgba(255, 255, 255, 0.6);
+}
 
 
 .Subscribe-buttom {
     display: flex;
-/* width: 165px; */
+ width: 165px; 
 height: 40px;
 
 flex-direction: row;
@@ -879,11 +892,18 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
 }
 .Subscribe-buttom-text {
-    margin-right: 16px;
-    color: var(--White);
+    font-family: 'Roboto';
+    font-style: normal;
     font-weight: 500;
-    line-height: 1.5;
+    font-size: 16px;
+    line-height: 24px;
+    
+    display: flex;
+    align-items: center;
+    text-align: center;
     letter-spacing: 0.04em;
+    
+    color: #FFFFFF;
 }
 
 
